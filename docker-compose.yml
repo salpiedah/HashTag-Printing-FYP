@@ -14,7 +14,7 @@ services:
   pgadmin:
     image: dpage/pgadmin4
     ports:
-      - "5555:80"
+      - "5050:80"
     restart: unless-stopped
     environment:
       PGADMIN_DEFAULT_EMAIL: salpiedah@gmail.com
